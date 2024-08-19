@@ -1,0 +1,38 @@
+body{
+    background:rgb(233, 155, 168);
+    color:rgb(158, 10, 126);
+    margin: 12px;
+    font-family:"New Amsterdam", sans-serif;
+    
+    }
+    h1 {
+    font-size: 30px;
+    color: black;
+    }
+    p {
+    font-size: 24px;
+    color: black;
+    }
+
+    img{
+      height: 200px;
+      opacity: 0.5;
+
+    }
+    .videosadd{
+     display: flex;
+      overflow-x: auto;
+      gap: 10px; 
+    }
+
+    header{
+        border-bottom: solid 2px rgb(0, 0, 0);
+        padding: 20px;
+        font-size: 40px;
+    }
+
+    img:hover{
+       opacity: 1.0;
+       border: 2px solid rgb(234, 0, 255);
+
+    }
